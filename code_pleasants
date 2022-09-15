@@ -1,0 +1,31 @@
+Last login: Sun Sep 11 15:04:26 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Elizabeths-MacBook-Pro:~ elizabethpleasants$ cd elizabethpleasants/Dropbox/Fall_2022/CSS/GitHub
+-bash: cd: elizabethpleasants/Dropbox/Fall_2022/CSS/GitHub: No such file or directory
+(base) Elizabeths-MacBook-Pro:~ elizabethpleasants$ cd Dropbox
+(base) Elizabeths-MacBook-Pro:Dropbox elizabethpleasants$ cd Fall_2022/CSS/GitHub
+(base) Elizabeths-MacBook-Pro:GitHub elizabethpleasants$ git clone https://github.com/flavia-leite/GitHub_Collaboration_Practice.git
+Cloning into 'GitHub_Collaboration_Practice'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+(base) Elizabeths-MacBook-Pro:GitHub elizabethpleasants$ git checkout -b "betsy_branch"
+Switched to a new branch 'betsy_branch'
+(base) Elizabeths-MacBook-Pro:GitHub elizabethpleasants$ cd GitHub_Collaboration_Practice
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ git checkout -b "betsy_branch"
+Switched to a new branch 'betsy_branch'
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ nano groupmembers.txt
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ nano group_members
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ touch readme
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ touch code_pleasants
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$ nano code
+(base) Elizabeths-MacBook-Pro:GitHub_Collaboration_Practice elizabethpleasants$  
+git add *
+git commit -m "add code and research interests, pleasants"
+git push -u origin main
