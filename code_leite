@@ -1,0 +1,89 @@
+Last login: Thu Sep 15 07:55:39 on console
+(base) flavia@Flavias-MacBook-Air-2 ~ % cd Documents
+(base) flavia@Flavias-MacBook-Air-2 Documents % ls
+Educaçao				Zoom
+Pessoal					Zotero
+Work					~$estions re Sources & Uses.docx
+(base) flavia@Flavias-MacBook-Air-2 Documents % cd Educaçao/PhD_Berkeley/Fall_2022/SOC_273 
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % LS
+09_06
+09_13
+CSS Syllabus - Fall 2022.pdf
+Computational-Social-Science-Training-Program
+Project_1
+Untitled.ipynb
+copied_Computational-Social-Science-Training-Program-master
+test
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % git clone https://github.com/flavia-leite/Computational_Social_Science_Project_1.git
+    
+objc[5019]: Class AMSupportURLConnectionDelegate is implemented in both /usr/lib/libamsupport.dylib (0x1dee27130) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x1068402c8). One of the two will be used. Which one is undefined.
+objc[5019]: Class AMSupportURLSession is implemented in both /usr/lib/libamsupport.dylib (0x1dee27180) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x106840318). One of the two will be used. Which one is undefined.
+^[[ACloning into 'Computational_Social_Science_Project_1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % 
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % cd Computational_Social_Science_Project_1
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % ls
+README.md
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % mkdir Project_1
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % cd Project_1
+(base) flavia@Flavias-MacBook-Air-2 Project_1 % ls
+(base) flavia@Flavias-MacBook-Air-2 Project_1 % touch readme.md
+(base) flavia@Flavias-MacBook-Air-2 Project_1 % nano readme.md
+
+(base) flavia@Flavias-MacBook-Air-2 Project_1 % nano readme.md
+[D
+zsh: bad pattern: [D
+(base) flavia@Flavias-MacBook-Air-2 Project_1 % cd ..
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % git commit -m "Our first commit"
+[main 5e7f041] Our first commit
+ 1 file changed, 38 insertions(+)
+ create mode 100644 Project_1/readme.md
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.01 KiB | 1.01 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/flavia-leite/Computational_Social_Science_Project_1.git
+   2cae38e..5e7f041  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+(base) flavia@Flavias-MacBook-Air-2 Computational_Social_Science_Project_1 % cd ..
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % ls
+09_06								Project_1
+09_13								Untitled.ipynb
+CSS Syllabus - Fall 2022.pdf					copied_Computational-Social-Science-Training-Program-master
+Computational-Social-Science-Training-Program			test
+Computational_Social_Science_Project_1
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % git clone https://github.com/flavia-leite/GitHub_Collaboration_Practice.git
+Cloning into 'GitHub_Collaboration_Practice'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % git checkout -b flavia_leite
+fatal: not a git repository (or any of the parent directories): .git
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % ls 
+09_06								GitHub_Collaboration_Practice
+09_13								Project_1
+CSS Syllabus - Fall 2022.pdf					Untitled.ipynb
+Computational-Social-Science-Training-Program			copied_Computational-Social-Science-Training-Program-master
+Computational_Social_Science_Project_1				test
+(base) flavia@Flavias-MacBook-Air-2 SOC_273 % cd GitHub_Collaboration_Practice
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % git checkout -b flavia_leite    
+Switched to a new branch 'flavia_leite'
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % nano group_members.txt
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % nano group_members    
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % touch code_leite
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % nano code_leite
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % git add *
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % git commit -m "add code and research interest file, leite"
+(base) flavia@Flavias-MacBook-Air-2 GitHub_Collaboration_Practice % git push -u origin flavia_leite
+
+
+
