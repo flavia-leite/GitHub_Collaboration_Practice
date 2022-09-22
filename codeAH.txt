@@ -1,0 +1,10 @@
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % 
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % git checkout -b AH
+fatal: A branch named 'AH' already exists.
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % git checkout -b AH7
+Switched to a new branch 'AH7'
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % pwd
+/Users/danluxu/Desktop/CSS-T-P/GitHub_Collaboration_Practice
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % touch codeAH.txt
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % open codeAH.txt
+(base) danluxu@DanludeMacBook-Air GitHub_Collaboration_Practice % 
